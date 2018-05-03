@@ -1,0 +1,10 @@
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\bin\Debug\FuzeSavunmaOyunu.exe
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\bin\Debug\FuzeSavunmaOyunu.pdb
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.Properties.Resources.resources
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.csproj.GenerateResource.Cache
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.exe
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.pdb
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.csprojResolveAssemblyReference.cache
+C:\PROJECTS\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.FormAnaForm.resources
+C:\Users\Moutlou\Desktop\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.exe
+C:\Users\Moutlou\Desktop\FuzeSavunmaOyunu\FuzeSavunmaOyunu\obj\x86\Debug\FuzeSavunmaOyunu.pdb
