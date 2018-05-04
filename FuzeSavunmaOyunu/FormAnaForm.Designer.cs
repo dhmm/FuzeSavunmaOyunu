@@ -38,14 +38,17 @@
             this.lblSeviye = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblCan = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.gpctBoom = new FuzeSavunmaOyunu.Kutuphane.GelismisPictureBox();
+            this.gpctAlt = new FuzeSavunmaOyunu.Kutuphane.GelismisPictureBox();
             this.gpctHedef = new FuzeSavunmaOyunu.Kutuphane.GelismisPictureBox();
             this.gpctSehir = new FuzeSavunmaOyunu.Kutuphane.GelismisPictureBox();
-            this.gpctAlt = new FuzeSavunmaOyunu.Kutuphane.GelismisPictureBox();
             this.gpctUst = new FuzeSavunmaOyunu.Kutuphane.GelismisPictureBox();
             this.gpctDuz = new FuzeSavunmaOyunu.Kutuphane.GelismisPictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.gpctBoom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gpctAlt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctHedef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctSehir)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gpctAlt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctUst)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctDuz)).BeginInit();
             this.SuspendLayout();
@@ -128,11 +131,44 @@
             this.lblCan.Text = "0";
             this.lblCan.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(617, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(289, 23);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "(F2)-Yeni , (Pause)-Duraklat";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // gpctBoom
+            // 
+            this.gpctBoom.BackColor = System.Drawing.Color.Transparent;
+            this.gpctBoom.Image = ((System.Drawing.Image)(resources.GetObject("gpctBoom.Image")));
+            this.gpctBoom.Location = new System.Drawing.Point(820, 452);
+            this.gpctBoom.Name = "gpctBoom";
+            this.gpctBoom.Size = new System.Drawing.Size(50, 50);
+            this.gpctBoom.TabIndex = 11;
+            this.gpctBoom.TabStop = false;
+            this.gpctBoom.Visible = false;
+            // 
+            // gpctAlt
+            // 
+            this.gpctAlt.BackColor = System.Drawing.Color.Transparent;
+            this.gpctAlt.Image = ((System.Drawing.Image)(resources.GetObject("gpctAlt.Image")));
+            this.gpctAlt.Location = new System.Drawing.Point(886, 499);
+            this.gpctAlt.Name = "gpctAlt";
+            this.gpctAlt.Size = new System.Drawing.Size(43, 24);
+            this.gpctAlt.TabIndex = 0;
+            this.gpctAlt.TabStop = false;
+            this.gpctAlt.Visible = false;
+            // 
             // gpctHedef
             // 
             this.gpctHedef.BackColor = System.Drawing.Color.Transparent;
             this.gpctHedef.Image = ((System.Drawing.Image)(resources.GetObject("gpctHedef.Image")));
-            this.gpctHedef.Location = new System.Drawing.Point(817, 606);
+            this.gpctHedef.Location = new System.Drawing.Point(820, 539);
             this.gpctHedef.Name = "gpctHedef";
             this.gpctHedef.Size = new System.Drawing.Size(50, 50);
             this.gpctHedef.TabIndex = 3;
@@ -151,18 +187,9 @@
             this.gpctSehir.TabIndex = 2;
             this.gpctSehir.TabStop = false;
             // 
-            // gpctAlt
-            // 
-            this.gpctAlt.Image = ((System.Drawing.Image)(resources.GetObject("gpctAlt.Image")));
-            this.gpctAlt.Location = new System.Drawing.Point(886, 599);
-            this.gpctAlt.Name = "gpctAlt";
-            this.gpctAlt.Size = new System.Drawing.Size(43, 24);
-            this.gpctAlt.TabIndex = 0;
-            this.gpctAlt.TabStop = false;
-            this.gpctAlt.Visible = false;
-            // 
             // gpctUst
             // 
+            this.gpctUst.BackColor = System.Drawing.Color.Transparent;
             this.gpctUst.Image = ((System.Drawing.Image)(resources.GetObject("gpctUst.Image")));
             this.gpctUst.Location = new System.Drawing.Point(886, 569);
             this.gpctUst.Name = "gpctUst";
@@ -173,6 +200,7 @@
             // 
             // gpctDuz
             // 
+            this.gpctDuz.BackColor = System.Drawing.Color.Transparent;
             this.gpctDuz.Image = ((System.Drawing.Image)(resources.GetObject("gpctDuz.Image")));
             this.gpctDuz.Location = new System.Drawing.Point(886, 539);
             this.gpctDuz.Name = "gpctDuz";
@@ -186,7 +214,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(992, 668);
+            this.Controls.Add(this.gpctBoom);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.gpctAlt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblCan);
             this.Controls.Add(this.label2);
@@ -195,19 +227,19 @@
             this.Controls.Add(this.lblSkor);
             this.Controls.Add(this.gpctHedef);
             this.Controls.Add(this.gpctSehir);
-            this.Controls.Add(this.gpctAlt);
             this.Controls.Add(this.gpctUst);
             this.Controls.Add(this.gpctDuz);
             this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAnaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Fuze Savunma Oyunu";
+            this.Text = "Fuze Savunma Oyunu v 0.2";
             this.Load += new System.EventHandler(this.FormAnaForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormAnaForm_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.gpctBoom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gpctAlt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctHedef)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctSehir)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gpctAlt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctUst)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpctDuz)).EndInit();
             this.ResumeLayout(false);
@@ -229,6 +261,8 @@
         private System.Windows.Forms.Label lblSeviye;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblCan;
+        private System.Windows.Forms.Label label4;
+        private Kutuphane.GelismisPictureBox gpctBoom;
     }
 }
 

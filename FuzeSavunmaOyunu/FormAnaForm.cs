@@ -17,7 +17,7 @@ namespace FuzeSavunmaOyunu
         public FormAnaForm()
         {
             InitializeComponent();
-            oyun = new Oyun(this, timer,gpctHedef,gpctDuz ,gpctUst,gpctAlt);
+            oyun = new Oyun(this, timer, gpctBoom, gpctHedef, gpctDuz, gpctUst, gpctAlt);
             oyun.OyunPanelleriAta(lblCan, lblSkor, lblSeviye);
         }
        
@@ -42,7 +42,8 @@ namespace FuzeSavunmaOyunu
 
         private void FormAnaForm_Load(object sender, EventArgs e)
         {
-           
+            this.Width = 1000;
+            this.Height = 700;
         }
 
         private void gpctHedef_Click(object sender, EventArgs e)

@@ -80,7 +80,8 @@ namespace FuzeSavunmaOyunu.Kutuphane
             Ilerle();            
         }
         public Fuze(Oyun oyun)
-        {                                  
+        {
+            RastgeleDalgalanmaYonuSec();            
             Adim = 10;
             UsttenOffset = 0;
             this.Oyun = oyun;
@@ -102,6 +103,11 @@ namespace FuzeSavunmaOyunu.Kutuphane
             return false;
         }
 
+        private void RastgeleDalgalanmaYonuSec()
+        {
+            Random R = new Random();
+            this.DalgalanmaAdimi = R.Next(-1, 2);
+        }
         private void PozisyonDegisti()
         {
             switch (this.Pozisyon)
